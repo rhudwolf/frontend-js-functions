@@ -1,0 +1,23 @@
+{
+	"name": "frontent-js-functions",
+	"description": "JavaScript functions task",
+	"author": "Constantine Genchevsky <const.gen@gmail.com>",
+	"version": "1.0.0",
+	"main": "src/index.js",
+	"license": "GPL-3.0",
+	"dependencies": {
+		
+	},
+	"devDependencies": {
+		"neutrino": "8.3.0",
+		"@neutrinojs/node": "8.3.0",
+		"@atomspace/eslint": "2.1.1",
+		"@neutrinojs/jest": "8.3.0"
+	},
+	"scripts": {
+		"test": "neutrino test --verbose --watchAll",
+		"build": "neutrino build",
+		"start": "neutrino start",
+		"lint": "neutrino lint"
+	}
+}
