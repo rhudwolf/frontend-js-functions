@@ -1,13 +1,12 @@
 {
 	"name": "frontent-js-functions",
+	"private": true,
 	"description": "JavaScript functions task",
 	"author": "Constantine Genchevsky <const.gen@gmail.com>",
 	"version": "1.0.0",
 	"main": "src/index.js",
 	"license": "GPL-3.0",
-	"dependencies": {
-		
-	},
+	"dependencies": {},
 	"devDependencies": {
 		"neutrino": "8.3.0",
 		"@neutrinojs/node": "8.3.0",
