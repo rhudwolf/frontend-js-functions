@@ -2,7 +2,7 @@
 module.exports = {
 	use: [
 		'@atomspace/eslint',
-		'@neutrinojs/node',
+		'./neutrino/node',
 		'@neutrinojs/jest'
 	]
 }
