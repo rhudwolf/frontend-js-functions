@@ -4,7 +4,7 @@
 	"description": "JavaScript functions task",
 	"author": "Constantine Genchevsky <const.gen@gmail.com>",
 	"version": "1.1.0",
-	"main": "src/index.js",
+	"main": "build/index.js",
 	"license": "GPL-3.0",
 	"dependencies": {},
 	"devDependencies": {
@@ -13,7 +13,7 @@
 		"@neutrinojs/banner": "8.3.0",
 		"@atomspace/eslint": "2.2.0",
 		"@neutrinojs/jest": "8.3.0",
-		"@neutrinojs/clean":"8.3.0",
+		"@neutrinojs/clean": "8.3.0",
 		"source-map-support": "~0.5.9"
 	},
 	"scripts": {
