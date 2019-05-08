@@ -1,50 +1,75 @@
 // min
 // min([7, 8, 9, 5, 1]); // 1
 // min([]); // undefined
-let arr = [3,2,5,6];
 
-function min(obj) {
-	var a = obj[0];
+export function min (obj) {
+	let zero = obj[0];
 
-	for (var i = 1; i < obj.length; i++) {
-		if (obj[i] < a) {
-			a = obj[i];
+	for (let i = 1; i < obj.length; i++) {
+		if (obj[i] < zero) {
+			zero = obj[i];
 		}
 	}
-	return a;
+	return zero;
 }
 
-min(arr);
-
-//max
+// max
 // max([7, 8, 9, 5, 1]); // 9
 // max(); // undefined
-let arr = [3,2,5,6];
+// let arr = [3,2,5,6];
 
-function max(obj) {
-	var a = obj[0];
+export function max (obj) {
+	let zero = obj[0];
 
-	for (var i = 1; i < obj.length; i++) {
-		if (obj[i] > a) {
-			a = obj[i];
+	for (let i = 1; i < obj.length; i++) {
+		if (obj[i] > zero) {
+			zero = obj[i];
 		}
 	}
-	return a;
+	return zero;
 }
 
-max(arr);
-
-//sum
+// sum
 // sum(7, 8, 9, 5, 1); // 30
 // sum(); // 0
-let arr = [3,2,5,6];
+// let arr = [3,2,5,6];
 
-function sum(arr){
-var sum = 0;
-for(var i = 0; i < arr.length; i++){
-    sum += arr[i];
-    }
-console.log(sum);
+export function sum (arr) {
+	let sum = 0;
+
+	for (let i = 0; i < arr.length; i++) {
+		sum += arr[i];
+	}
+	return sum;
 }
 
-sum(arr);
+// function average(numbers) {
+// 	let result;
+// 	let numbersAmount = numbers.length;
+// 	let sum = 0;
+// 	let number;
+
+// 	for (number of numbers) {
+// 		sum += number;
+// 	}
+// 	result = sum / numbersAmount;
+
+// 	return result;
+// }
+
+// let array = [1, 2, 3];
+
+// average(array);
+
+
+// ЗАДАЧА: сумма до числа
+// function numberSum (Num) {
+
+// 	let total = 0;
+
+// 	for (let i = 1; i <= Num; i++) {
+// 		total += i;
+// 	}
+// 	return total;
+// }
+// numberSum(4);
